@@ -30,6 +30,7 @@ body {
       text-align: center;
       font-size: 3em;
       color: black;
+      line-height: 2em;
   }
   
   h5 {
@@ -49,18 +50,16 @@ body {
       grid-gap: 30px;
       grid-template-columns: repeat(20, 1fr);
       grid-template-rows: repeat(8, 50px);
-     border: solid 2px rgba(0,0,0,0.3);
       border-radius: 10px;
   }
 
   .project:hover {
-    box-shadow: 0px 1px 2.4px 1px rgba(0,0,0,0.5);
     }
 
   .project-text {
     font-size: 2.25rem;
     grid-column: 1/10;
-    grid-row: 2/9;
+    grid-row: 2/8;
     /* padding: 1em; */
   }
  
@@ -149,4 +148,14 @@ body {
     text-transform: none;
     text-decoration: none;
     color: white;
+}
+
+#tutorials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    margin: 0 auto;
 }
