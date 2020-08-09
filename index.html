@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brian Baileys Web Development Portfolio</title>
+    <title>Web Development Portfolio</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="practice.css">
 </head>
 <body>
+    <nav id='navbar'>
+        <ul id='nav-list'>
+            <li class='nav-item'><a class='nav-link' href="#welcome-section">Home</a></li>
+            <li class='nav-item'><a class='nav-link' href="#projects">Projects</a></li>
+            <li class='nav-item'><a class='nav-link' href="#welcome-section">Articles</a></li>
+            <li class='nav-item'><a class='nav-link' id='profile-link' href="https://github.com/quadrupler">Github</a></li>
+        </ul>
+    </nav>
     <section id='welcome-section'>
+        
         <div id='welcome-text'>
             <header>
                 <h1 id='welcome-title'>
@@ -19,5 +29,49 @@
             </p>
         </div>
     </section>
+    <section id='projects'>
+        <h2>Projects</h2>
+        <!-- left side will contain a title, 2-3 sentence project description  and have an image on the right side -->
+        <div class='project'>
+           <div class='project-text'>
+                <h2 class='project-title'>
+                    Survey Form
+                </h2>
+                <p class='project-description'>
+                    Lick arm hair. Plan your travel fooled again thinking the dog likes me yet intently sniff hand, 
+                    but shake treat bag hide from vacuum cleaner. With tail in the air scoot butt on the rug. Really likes hummus sleep.
+                </p>
+                <div class='socials'>
+                    <button class='project-btn'><a href='https://foodjournalingsurvey.briames.repl.co/''>View Project</a></button>
+                    <button class='project-btn'><a href='https://repl.it/@Briames/FoodJournalingSurvey#index.html'>View Github</a></button>
+                </div>
+           </div>
+           <div class='project-tile'>
+            <img src="survey-form.png" class='fluid-img' alt="A image of a survey form">
+           </div>
+        </div>
+        <div class='project'>  
+            <div class='project-text'>
+                 <h4 class='project-title'>
+                     Project A
+                 </h4>
+                 <p class='project-description'>
+                     Lick arm hair. Plan your travel fooled again thinking the dog likes me yet intently sniff hand, 
+                     but shake treat bag hide from vacuum cleaner. With tail in the air scoot butt on the rug. Really likes hummus sleep.
+                 </p>
+                 <div class='socials'>
+                     <button class='project-btn'><a href='''>View Project</a></button>
+                     <button class='project-btn'><a href=''>View Github</a></button>
+                 </div>
+            </div>
+            <div class='project-tile'>
+               <img src="productLanding.png" class='fluid-img' alt="A product landing page for basketballs">
+            </div>
+         </div>
+         
+    </section>
+    <h5>Tutorials I'm interested in watching</h5>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_lyzy-vChh4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
 </body>
 </html>
