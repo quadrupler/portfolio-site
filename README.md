@@ -3,7 +3,12 @@
 Welcome to my Portfolio Site Repository! Don't expect too much as I'm still learning how to build websites and will definitely
 refactor my portfolio in the near future!
 
+
 ## User Stories
+- [ ] Make the webpage responsive across phones laptops and desktops.
+- [ ] Add more content to the website 
+- [ ] Start writing weekly blog posts
+- [ ] Build a roadmap
 
 - [x] My portfolio should have a welcome section with an id of welcome-section.
 
